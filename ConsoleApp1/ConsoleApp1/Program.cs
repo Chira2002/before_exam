@@ -25,6 +25,15 @@ namespace ConsoleApp1
             //    name[num] = Console.ReadLine();
             //}
             //Console.WriteLine(name[4]);
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 7)
+                {
+                    continue;
+                    
+                }
+                Console.WriteLine(i);
+            }
         }
     }
 }
