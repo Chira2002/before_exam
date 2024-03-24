@@ -10,30 +10,24 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //int[] marks = new int[5];
-            //for(int i = 0; i < 5; i += 1)
-            //{
-            //    Console.Write("Enter marks : ");
-            //    marks[i] = Convert.ToInt32(Console.ReadLine());
-            //}
-            //Console.WriteLine(marks[4]);
+            //creating object person1
+            Person person01 = new Person();
+            //creating object person2
+            Person person02 = new Person();
 
-            //string[] name = new string[6];
-            //for (int num = 0; num < 6; num++)
-            //{
-            //    Console.Write("Enter student name : ");
-            //    name[num] = Console.ReadLine();
-            //}
-            //Console.WriteLine(name[4]);
-            //for (int i = 0; i < 10; i++)
-            //{
-                //if (i == 7)
-                //{
-                   // continue;
-                    
-              //  }
-               // Console.WriteLine(i);
-            }
+            person01.name = "Jeewaka";
+            person01.age = 21;
+
+            person02.name = "kavindu";
+            person02.age = 25;
+
+            Console.WriteLine("Name is : " + person01.name);
+            Console.WriteLine("Age is : " + person01.age);
+
+            Console.ReadLine();
+
+            
+        
         }
     }
 }
