@@ -21,6 +21,9 @@ namespace ConsoleApp1
             person02.name = "kavindu";
             person02.age = 25;
 
+            //accessing methods
+            person01.eating();
+
             Console.WriteLine("Name is : " + person01.name);
             Console.WriteLine("Age is : " + person01.age);
 

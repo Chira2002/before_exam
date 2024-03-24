@@ -15,7 +15,7 @@ namespace ConsoleApp1
         //methods
         public void eating()
         {
-
+            Console.WriteLine("im eating");
         }
         public void sleeping()
         {
