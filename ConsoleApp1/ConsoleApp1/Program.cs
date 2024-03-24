@@ -25,7 +25,7 @@ namespace ConsoleApp1
             person01.eating();
 
             Console.WriteLine("Name is : " + person01.name);
-            Console.WriteLine("Age is : " + person01.age);
+            Console.WriteLine("Age is : " + person01.age); 
 
             Console.ReadLine();
 
