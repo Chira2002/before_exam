@@ -10,11 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int num01=10;
-            int num02=20;
+            Console.WriteLine("Enter a value for num 01: ");
+            int num01=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a value for num 01: ");
+            int num02=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Total is = "+(num01+num02));
-            Console.WriteLine(num01+num02);
-            Console.WriteLine("jeewaka chiranjeewa jayasinghe");
+            
         }
     }
 }
