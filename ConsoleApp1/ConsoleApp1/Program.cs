@@ -10,12 +10,21 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a value for num 01: ");
-            int num01=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter a value for num 01: ");
-            int num02=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Total is = "+(num01+num02));
-            
+            //int[] marks = new int[5];
+            //for(int i = 0; i < 5; i += 1)
+            //{
+            //    Console.Write("Enter marks : ");
+            //    marks[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.WriteLine(marks[4]);
+
+            //string[] name = new string[6];
+            //for (int num = 0; num < 6; num++)
+            //{
+            //    Console.Write("Enter student name : ");
+            //    name[num] = Console.ReadLine();
+            //}
+            //Console.WriteLine(name[4]);
         }
     }
 }
